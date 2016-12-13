@@ -1,0 +1,45 @@
+.pic {
+  width: 100%;
+}
+.pic img {
+  width: 100%;
+}
+.container.con-mask {
+  background: rgba(0, 0, 0, 0.2);
+}
+.container .content {
+  width: 1080px;
+  margin: 0 auto;
+  padding-top: 30px;
+}
+.container .content p {
+  line-height: 36px;
+  font-size: 24px;
+  color: #666;
+}
+.container .content p.describe {
+  margin-top: 42px;
+}
+.container .content p.title {
+  font-weight: bold;
+}
+.contact {
+  text-align: center;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  margin-left: -250px;
+  margin-top: -250px;
+  width: 500px;
+  height: 500px;
+  padding: 100px 150px;
+  border-radius: 4px;
+  background: #fff;
+  display: none;
+}
+.contact.show {
+  display: block;
+}
+.contact p {
+  margin-top: 80px;
+}

@@ -1,0 +1,62 @@
+div,
+html,
+body,
+h1,
+h2,
+p,
+span,
+i,
+a,
+input {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+input {
+  border: none;
+  outline: none;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+  color: #666;
+}
+ul {
+  list-style: none;
+}
+.top {
+  width: 100%;
+  -webkit-box-shadow: 0 0 3px #ccc;
+  -moz-box-shadow: 0 0 3px #ccc;
+  box-shadow: 0 0 3px #ccc;
+}
+.top .top-con {
+  width: 1080px;
+  margin: 0 auto;
+  height: 98px;
+  line-height: 98px;
+  display: flex;
+  font-size: 24px;
+  font-family: bold;
+}
+.top .top-con > div {
+  flex: 1;
+}
+.top .top-con > div.top-con-lf {
+  font-weight: bold;
+}
+.top .top-con > div.top-con-lf span {
+  padding: 10px 40px;
+  background: url("../img/little.png") no-repeat left center;
+}
+.top .top-con > div.top-con-rt {
+  text-align: right;
+}
+.top .top-con > div.top-con-rt a {
+  margin-left: 38px;
+}
+.top .top-con > div.top-con-rt a.click {
+  font-weight: bold;
+}

@@ -1,0 +1,91 @@
+.center {
+  padding-top: 240px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.center > div {
+  width: 550px;
+}
+.center > div img {
+  width: 100%;
+}
+.center.mask {
+  background: rgba(0, 0, 0, 0.4);
+}
+.login-register {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  margin-left: -100px;
+  margin-top: -34px;
+  width: 200px;
+  height: 68px;
+  border: 1px solid #333;
+  border-radius: 4px;
+  line-height: 68px;
+  text-align: center;
+  font-size: 26px;
+}
+.login-register.do {
+  display: none;
+}
+.login,
+.register {
+  border-radius: 4px ;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  margin-left: -400px;
+  margin-top: -240px;
+  width: 800px;
+  height: 480px;
+  background: #fff;
+  padding: 40px 50px;
+  display: none;
+}
+.login.active,
+.register.active {
+  display: block;
+}
+.login p,
+.register p {
+  font-size: 24px;
+  color: #999;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.login .user,
+.register .user {
+  margin-bottom: 20px;
+}
+.login .inf,
+.register .inf {
+  border: 1px solid #f0f0f0;
+  height: 88px;
+  line-height: 88px;
+}
+.login .inf input,
+.register .inf input {
+  font-size: 24px;
+  color: #666;
+  width: 100%;
+  padding-left: 36px;
+}
+.login .btn,
+.register .btn {
+  text-align: center;
+  margin: 50px 0 40px 0;
+}
+.login .btn a,
+.register .btn a {
+  color: #ea445a;
+  font-weight: bold;
+  font-size: 28px;
+}
+.login .rgt,
+.register .rgt {
+  text-align: right;
+  font-size: 24px;
+  color: #999;
+}
