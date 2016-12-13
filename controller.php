@@ -7,7 +7,7 @@
  * Time: 上午10:00
  */
 class controller
-{
+{ 
     public $smarty;
 
     public function __construct()
